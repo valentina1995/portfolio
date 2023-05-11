@@ -828,6 +828,13 @@ padding-bottom: 40px;
     font-weight: 200;
     padding: 20px;
 }
+.portfolio-text ul{
+    font-size: 16px;
+    opacity: .8;
+    font-family: poppins;
+    font-weight: 200;
+    margin-left: 60px;
+}
 .portfolio-text button{
     font-size: 16px;
     opacity: .8;
