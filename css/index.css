@@ -628,6 +628,68 @@ body{
     font-size: 16px;
     opacity: .8;
 }
+
+.tech{
+    height:220px;
+    width:80%;
+    margin: 1.5%;
+    background-color: #191919;
+    display: inline-block;
+    box-shadow:0px 0px 25px rgb(0,0,0,.05);
+    position: relative;
+    text-align: left;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: opacity 1.4s ease ;
+
+}
+
+.tech h{
+    color: whitesmoke;
+    justify-content: left;
+    font-size: 20px;
+    font-family: poppins;
+    display: block;
+    padding: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+
+}
+
+.tech-img{
+    height:100px;
+    margin: 1%;
+    text-align: center;
+}
+
+.tech-img img{
+    width: 100px;
+    height: 100px;
+    position: inline-block;
+    top: 50%;
+    left: 2.5%;
+    opacity: .5;
+    z-index: 2;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    border: 0px solid #00909e;
+    background: #191919;
+    box-shadow:0px 0px 0px 0px #00909e ;
+    margin-bottom: 5px;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+}
+
+.tech-img img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
 #skills{
     width: 100%;
     height:auto;
