@@ -670,6 +670,7 @@ body{
     top: 50%;
     left: 2.5%;
     opacity: .5;
+    filter: grayscale(100%);
     z-index: 2;
     cursor: pointer;
     padding: 20px;
@@ -683,11 +684,14 @@ body{
     -moz-transition: all .8s ease;
     -ms-transition: all .8s ease;
     -o-transition: all .8s ease;
+    -webkit-filter: grayscale(100%);
 }
 
 .tech-img img:hover{
     opacity: 1;
+    filter: grayscale(0%);
     transform: scale(1.1);
+    -webkit-filter: grayscale(0%);
 }
 
 #skills{
