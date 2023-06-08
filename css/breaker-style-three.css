@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
-#breaker{
+
+#breaker {
     height: 200vh;
     width: 200%;
     background-color: #c70039;
@@ -15,17 +16,32 @@
     z-index: 10;
     position: fixed;
 }
-@keyframes breakeranimate{
-   0%{ transform : translateY(100%)}
-   50%{ transform : translateY(-50%) }
-   100%{ transform : translateY(-150%) }
+
+@keyframes breakeranimate {
+    0% {
+        transform: translateY(100%)
+    }
+    50% {
+        transform: translateY(-50%)
+    }
+    100% {
+        transform: translateY(-150%)
+    }
 }
-@-webkit-keyframes breakeranimate{
-    0%{ transform : translateY(100%)}
-   50%{ transform : translateY(-50%) }
-   100%{ transform : translateY(-150%) }
+
+@-webkit-keyframes breakeranimate {
+    0% {
+        transform: translateY(100%)
+    }
+    50% {
+        transform: translateY(-50%)
+    }
+    100% {
+        transform: translateY(-150%)
+    }
 }
-#breaker-two{
+
+#breaker-two {
     height: 0vh;
     width: 200%;
     background-color: #080808;
@@ -37,13 +53,27 @@
     border-radius: 25px;
     position: fixed;
 }
-@keyframes breakeranimatetwo{
-   0%{ transform : translateX(-100%) translateY(100%) }
-   50%{ transform : translateX(0%) translateY(100%)}
-   100%{ transform : translateX(100%) translateY(100%)}
+
+@keyframes breakeranimatetwo {
+    0% {
+        transform: translateX(-100%) translateY(100%)
+    }
+    50% {
+        transform: translateX(0%) translateY(100%)
+    }
+    100% {
+        transform: translateX(100%) translateY(100%)
+    }
 }
-@-webkit-keyframes breakeranimatetwo{
-    0%{ transform : translateX(-100%)  translateY(100%)}
-    50%{ transform : translateX(0%) translateY(100%)}
-    100%{ transform : translateX(100%) translateY(100%)}
+
+@-webkit-keyframes breakeranimatetwo {
+    0% {
+        transform: translateX(-100%) translateY(100%)
+    }
+    50% {
+        transform: translateX(0%) translateY(100%)
+    }
+    100% {
+        transform: translateX(100%) translateY(100%)
+    }
 }
